@@ -19,7 +19,7 @@ const Projects = () => {
           <ProjectItem 
             title='Web Portfolio'
             backgroundImg={webportfolioImg}
-            projectUrl='/'
+            projectUrl='https://github.com/enochluu/PersonalPortfolio'
             projectDetails='NextJS, Tailwind CSS'
           />
         </div>

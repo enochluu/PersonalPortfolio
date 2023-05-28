@@ -107,7 +107,7 @@ const handleFormSubmit = (e) => {
                     </div>
                     </Link>
                     <a
-                      href='resume.pdf'
+                      href='Resume-Enoch-Luu.pdf'
                       target='_blank'
                       rel='noreferrer'
                     >
@@ -142,7 +142,7 @@ const handleFormSubmit = (e) => {
                     <input 
                       className='rounded-lg bg-gray-800 p-3 flex focus:outline-none'
                       name='number'
-                      type='text'
+                      type='tel'
                       required
                       style={{borderColor: 'transparent', outlineColor: '#915eff'}}
                     />

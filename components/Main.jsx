@@ -56,7 +56,7 @@ const Main = () => {
               </div>
               </Link>
             <a
-              href='resume.pdf'
+              href='Resume-Enoch-Luu.pdf'
               target='_blank'
               rel='noreferrer'
             >
