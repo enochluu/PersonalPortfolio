@@ -1,6 +1,8 @@
 import React from 'react';
 import ProjectItem from './ProjectItem';
 import tripcollabImg from '../public/assets/projects/tripcollab.png';
+import crowdweaveImg from '../public/assets/projects/crowdweave.png';
+import eventfulImg from '../public/assets/projects/eventful.png';
 import webportfolioImg from '../public/assets/projects/webportfolio.png';
 
 const Projects = () => {
@@ -14,7 +16,19 @@ const Projects = () => {
             title='TripCollab'
             backgroundImg={tripcollabImg}
             projectUrl='https://github.com/enochluu/TripCollab'
-            projectDetails='Chakra UI'
+            projectDetails='NextJS, Python (Flask), PostgreSQL, Redis, Postman, Docker'
+          />
+          <ProjectItem 
+            title='CrowdWeave'
+            backgroundImg={crowdweaveImg}
+            projectUrl='https://github.com/enochluu/CrowdWeave'
+            projectDetails='JavaScript, Python (Flask), PostgreSQL, NGINX, Jenkins'
+          />
+          <ProjectItem 
+            title='EVENTful'
+            backgroundImg={eventfulImg}
+            projectUrl='https://github.com/enochluu?tab=repositories'
+            projectDetails='ReactJS, Python (Flask), MySQL'
           />
           <ProjectItem 
             title='Web Portfolio'
