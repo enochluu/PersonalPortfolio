@@ -135,7 +135,7 @@ const handleFormSubmit = (e) => {
                       name='name'
                       type='text'
                       required
-                      autocomplete="off"
+                      autoComplete="off"
                       style={{borderColor: 'transparent', outlineColor: '#915eff'}}
                     />
                   </div>
@@ -147,7 +147,7 @@ const handleFormSubmit = (e) => {
                       name='number'
                       type='tel'
                       required
-                      autocomplete="off"
+                      autoComplete="off"
                       style={{borderColor: 'transparent', outlineColor: '#915eff'}}
                     />
                   </div>
@@ -160,7 +160,7 @@ const handleFormSubmit = (e) => {
                     name='email'
                     type='email'
                     required
-                    autocomplete="off"
+                    autoComplete="off"
                     style={{borderColor: 'transparent', outlineColor: '#915eff'}} 
                   />
                 </div>
@@ -172,7 +172,7 @@ const handleFormSubmit = (e) => {
                     name='subject'
                     type='text'
                     required
-                    autocomplete="off"
+                    autoComplete="off"
                     style={{borderColor: 'transparent', outlineColor: '#915eff'}} 
                   />
                 </div>
@@ -184,7 +184,7 @@ const handleFormSubmit = (e) => {
                     name='message'
                     rows='10'
                     required
-                    autocomplete="off"
+                    autoComplete="off"
                     style={{borderColor: 'transparent', outlineColor: '#915eff'}}
                   />
                 </div>
