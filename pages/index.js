@@ -11,7 +11,7 @@ export default function Home() {
     <div>
       <Head>
         {/* Google tag (gtag.js) */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-CPL3X3M7XB"></script>
+        {/* <script async src="https://www.googletagmanager.com/gtag/js?id=G-CPL3X3M7XB"></script>
         <script>
           {`
             window.dataLayer = window.dataLayer || [];
@@ -20,7 +20,7 @@ export default function Home() {
 
             gtag('config', 'G-CPL3X3M7XB');
           `}
-        </script>
+        </script> */}
         <title>Enoch Luu</title>
         <meta
           name="description"
