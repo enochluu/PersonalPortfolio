@@ -10,17 +10,6 @@ export default function Home() {
   return (
     <div>
       <Head>
-        {/* Google tag (gtag.js) */}
-        {/* <script async src="https://www.googletagmanager.com/gtag/js?id=G-CPL3X3M7XB"></script>
-        <script>
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'G-CPL3X3M7XB');
-          `}
-        </script> */}
         <title>Enoch Luu</title>
         <meta
           name="description"
