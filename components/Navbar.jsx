@@ -163,7 +163,7 @@ const Navbar = () => {
                     </div>
                     </Link>
                   <a
-                    href='Resume - Enoch Luu.pdf'
+                    href='Resume_EnochLuu.pdf'
                     target='_blank'
                     rel='noreferrer'
                   >
