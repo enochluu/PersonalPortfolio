@@ -22,7 +22,7 @@ export default function Home() {
     <About />
     <Skills />
     <Projects />
-    <Contact />
+    {/* <Contact /> */}
     <ToastContainer 
       position="top-center"
       autoClose={5000}

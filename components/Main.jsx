@@ -43,7 +43,7 @@ const Main = () => {
                 </div>
               </div>
             </a>
-            <Link href='/#contact'>
+            <Link href="mailto:enochluu9@gmail.com">
               <div className='items-center justify-center'>
                 <div className='rounded-full bg-gradient-to-r from-[#00ffa9] via-[#915eff] to-[#e404ff] p-0.5'>
                   <div className='rounded-full bg-gray-800 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>

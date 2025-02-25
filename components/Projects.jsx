@@ -1,9 +1,11 @@
 import React from 'react';
+import Link from 'next/link';
 import ProjectItem from './ProjectItem';
 import tripcollabImg from '../public/assets/projects/tripcollab.png';
 import crowdweaveImg from '../public/assets/projects/crowdweave.png';
 import eventfulImg from '../public/assets/projects/eventful.png';
 import webportfolioImg from '../public/assets/projects/webportfolio.png';
+import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 
 const Projects = () => {
   return (
@@ -38,6 +40,15 @@ const Projects = () => {
           />
         </div>
       </div>
+      <div className='flex justify-center py-12'>
+          <Link href='/'>
+            <div className='rounded-full bg-gradient-to-r from-[#00ffa9] via-[#915eff] to-[#e404ff] p-0.5'>
+              <div className='rounded-full bg-gray-800 p-3 cursor-pointer hover:scale-110 ease-in duration-300'>
+                <HiOutlineChevronDoubleUp size={20}/>
+              </div>
+            </div>
+          </Link>
+        </div>
     </div>
   )
 }

@@ -63,9 +63,9 @@ const Navbar = () => {
             <Link href='/#projects'>
               <li className='ml-10 text-sm uppercase hover:border-b'>Projects</li>
             </Link>
-            <Link href='/#contact'>
+            {/* <Link href="mailto:enochluu9@gmail.com">
               <li className='ml-10 text-sm uppercase hover:border-b'>Contact</li>
-            </Link>
+            </Link> */}
           </ul>
           <div onClick={handleNav} className='md:hidden'>
             <AiOutlineMenu size={25} />
@@ -117,9 +117,9 @@ const Navbar = () => {
               <Link href='/#projects'>
                 <li onClick={() => setNav(false)}className='py-4 text-sm hover:border-b'>Projects</li>
               </Link>
-              <Link href='/#contact'>
+              {/* <Link href="'/#contact'">
                 <li onClick={() => setNav(false)}className='py-4 text-sm hover:border-b'>Contact</li>
-              </Link>
+              </Link> */}
             </ul>
             <div className='absolute bottom-0 left-0 w-full'>
               <div className='pt-40 px-8'>
@@ -153,7 +153,7 @@ const Navbar = () => {
                       </div>
                     </div>
                   </a>
-                  <Link href='/#contact'>
+                  <Link href="mailto:enochluu9@gmail.com">
                     <div className='items-center justify-center' onClick={() => setNav(!nav)}>
                       <div className='rounded-full bg-gradient-to-r from-[#00ffa9] via-[#915eff] to-[#e404ff] p-0.5'>
                         <div className='rounded-full bg-gray-800 p-3 cursor-pointer hover:scale-125 ease-in duration-300'>
